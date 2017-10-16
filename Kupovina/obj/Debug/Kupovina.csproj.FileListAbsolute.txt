@@ -1,0 +1,6 @@
+C:\Users\Stole\Desktop\Programiranje\Takmicenja\Informatikaa 5\Kupovina\bin\Debug\Kupovina.exe.config
+C:\Users\Stole\Desktop\Programiranje\Takmicenja\Informatikaa 5\Kupovina\bin\Debug\Kupovina.exe
+C:\Users\Stole\Desktop\Programiranje\Takmicenja\Informatikaa 5\Kupovina\bin\Debug\Kupovina.pdb
+C:\Users\Stole\Desktop\Programiranje\Takmicenja\Informatikaa 5\Kupovina\obj\Debug\Kupovina.csprojResolveAssemblyReference.cache
+C:\Users\Stole\Desktop\Programiranje\Takmicenja\Informatikaa 5\Kupovina\obj\Debug\Kupovina.exe
+C:\Users\Stole\Desktop\Programiranje\Takmicenja\Informatikaa 5\Kupovina\obj\Debug\Kupovina.pdb

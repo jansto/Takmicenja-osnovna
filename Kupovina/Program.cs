@@ -8,6 +8,7 @@ namespace Kupovina
 {
     class Program
     {
+        
         //Општинско такмичење из програмирања за ученике основних школа 4. март 2017.
 
         static void Main(string[] args)
@@ -628,6 +629,238 @@ namespace Kupovina
 
             //Console.WriteLine(2 * (str2_int + str1_int));
             //Console.ReadKey();
+
+            #endregion
+
+            #region 19 zadatak PESMA
+
+            //Console.WriteLine("Minut Sekunda SlobodanProstor");
+            //string MSS = Console.ReadLine();
+            //string[] niz = MSS.Split(' ');
+
+            //string minut = niz[0];
+            //string sekunda = niz[1];
+            //string SP = niz[2];
+
+            //int minut_int = int.Parse(minut);
+            //int sekunda_int = int.Parse(sekunda);
+            //int SP_int = int.Parse(SP);
+
+            //string DN = "Da";
+
+            //int Racunanje = SP_int * 1024 - (minut_int * 60 * 16 + sekunda_int * 16);
+
+            //if (Racunanje < 0)
+            //{
+            //    DN = "NE";
+            //    Console.WriteLine(DN + " " + Math.Abs(Racunanje).ToString());
+            //    Console.ReadKey();
+            //}
+            //else
+            //{
+            //    Console.WriteLine(DN);
+            //    Console.ReadKey();
+            //}
+            #endregion
+
+            #region 20 zadatak OTKRIVANJE
+
+            //Console.WriteLine(" Zbir Razlika");
+            //string ZbirRazlika = Console.ReadLine();
+            //string[] niz = ZbirRazlika.Split(' ');
+
+            //string Zbir = niz[0];
+            //string Razlika = niz[1];
+
+            //int Zbir_int = int.Parse(Zbir);
+            //int Razlika_int = int.Parse(Razlika);
+
+            //int x = (Zbir_int + Razlika_int) / 2;
+            //int y = Zbir_int - x;
+
+            //if (x < 0 || y < 0)
+            //{
+            //    Console.WriteLine("GRESKA");
+            //    Console.ReadKey();
+            //}
+            //else
+            //{
+            //    Console.WriteLine(x.ToString() + " " + y.ToString());
+            //    Console.ReadKey();
+            //}
+
+            #endregion
+
+            #region 21 zadatakk Seckanje    
+
+            //Console.WriteLine("Stranica1 Stranica2");
+            //string AiB = Console.ReadLine();
+            //string[] AIB = AiB.Split(' ');
+
+            //string A = AIB[0];
+            //string B = AIB[1];
+
+            //int A_int = int.Parse(A);
+            //int B_int = int.Parse(B);
+            //int C_int = 1;
+
+            //while(A_int != B_int)
+            //{
+            //    if(A_int > B_int)
+            //    {
+            //        A_int -= B_int;
+            //    }
+            //    else
+            //    {
+            //        B_int -= A_int;
+            //    }
+
+            //    C_int++;
+            //}
+
+            //Console.WriteLine(C_int);
+            //Console.ReadKey();
+
+            #endregion
+
+            #region 22 zadatak SEMAFOR
+
+            //Console.WriteLine("SAT MINUT SEKUNDA");
+            //string SMS = Console.ReadLine();
+            //string[] niz = SMS.Split(' ');
+
+            //string Sat = niz[0];
+            //string Minut = niz[1];
+            //string Sekunda = niz[2];
+
+            //int Sat_int = int.Parse(Sat);
+            //int Minut_int = int.Parse(Minut);
+            //int Sekunda_int = int.Parse(Sekunda);
+
+            //int sekunde = Sat_int * 3600 + Minut_int * 60 + Sekunda_int;
+            //sekunde += 3600 * 16;
+            //int Ostatak = sekunde % 108;
+
+            //if (Ostatak < 60 && Ostatak >=0)
+            //{
+            //    Console.WriteLine("Kreni");
+            //    Console.ReadKey();
+            //}
+            //if ((Ostatak >= 60 && Ostatak < 64) || (Ostatak >= 104 && Ostatak < 108))
+            //{
+            //    Console.WriteLine("Priprema");
+            //    Console.ReadKey();
+            //}
+            //if (Ostatak >= 64 && Ostatak < 104)
+            //{
+            //    Console.WriteLine("Stani");
+            //    Console.ReadKey();
+            //}
+            #endregion
+
+            #region 23 zadatak MAXIZRAZ (nedovrsen)
+
+            //Console.WriteLine("Trocifren broj");
+            //string TB = "";
+            //TB = Console.ReadLine();
+
+
+            #endregion
+
+            #region 24 zadatak MATURA
+
+            //Console.WriteLine("Aleksa");
+            //string Aleksa = "";
+            //Aleksa = Console.ReadLine();
+
+            //Console.WriteLine("Bane");
+            //string Bane = "";
+            //Bane = Console.ReadLine();
+
+            //Console.WriteLine("Vojin");
+            //string Vojin = "";
+            //Vojin = Console.ReadLine();
+
+            //int Aleksa_int = int.Parse(Aleksa);
+            //int Bane_int = int.Parse(Bane);
+            //int Vojin_int = int.Parse(Vojin);
+
+            //int[] niz = { Aleksa_int, Bane_int, Vojin_int };
+            //int Najveci = niz.Max(element => Math.Abs(element));
+            //niz = niz.Where(val => val != Najveci).ToArray();
+
+            //int Srednji = niz.Max(element => Math.Abs(element));
+            //niz = niz.Where(val => val != Srednji).ToArray();
+
+            //int Najmanji = niz[0];
+
+            //int[] niz2 = { Najveci, Srednji, Najmanji };
+
+            //Console.WriteLine(Najveci);
+            //Console.WriteLine(Srednji);
+            //Console.WriteLine(Najmanji);
+            //Console.ReadKey(); 
+
+            #endregion
+
+            #region 25 zadatak Dzeparac
+
+            Console.WriteLine("Pon");
+            string Pon = "";
+            Pon = Console.ReadLine();
+
+            Console.WriteLine("Uto");
+            string Uto = "";
+            Uto = Console.ReadLine();
+
+            Console.WriteLine("Sre");
+            string Sre = "";
+            Sre = Console.ReadLine();
+
+            Console.WriteLine("Cet");
+            string Cet = "";
+            Cet = Console.ReadLine();
+
+            Console.WriteLine("Pet");
+            string Pet = "";
+            Pet = Console.ReadLine();
+
+
+            int Pon_int = int.Parse(Pon);
+            int Uto_int = int.Parse(Uto);
+            int Sre_int = int.Parse(Sre);
+            int Cet_int = int.Parse(Cet);
+            int Pet_int = int.Parse(Pet);
+
+            int[] niz = { Pon_int, Uto_int, Sre_int, Cet_int, Pet_int };
+
+            int NajveciDz = niz.Max(element => Math.Abs(element));
+            niz = niz.Where(val => val != NajveciDz).ToArray();
+            string Dan = "";
+
+
+            if (NajveciDz == Pon_int)
+            {
+                Dan = "Pon";
+            }
+            if (NajveciDz == Uto_int)
+            {
+                Dan = "Uto";
+            }
+            if (NajveciDz == Sre_int)
+            {
+                Dan = "Sre";
+            }
+            if (NajveciDz == Cet_int)
+            {
+                Dan = "Cet";
+            }
+            if (NajveciDz == Pon_int)
+            {
+                Dan = "Pet";
+            }
+            Console.WriteLine(Dan + " " + NajveciDz.ToString());
+            Console.ReadKey();
 
             #endregion
         }

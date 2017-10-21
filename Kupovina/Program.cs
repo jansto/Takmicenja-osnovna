@@ -8,6 +8,9 @@ namespace Kupovina
 {
     class Program
     {
+        /* ZDRAVO STOLE
+         POZDRAVLJA TE MAMA
+             */
         //Општинско такмичење из програмирања за ученике основних школа 4. март 2017.
 
         static void Main(string[] args)

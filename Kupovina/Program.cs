@@ -771,8 +771,8 @@ namespace Kupovina
 
             #region 23 zadatak MAXIZRAZ 
 
-             ////Rastaviti trocifren broj na cinioce i 
-             //// naci najveci rezultat sa jednim mnozenjem i jednim sabiranjem 
+            ////Rastaviti trocifren broj na cinioce i 
+            //// naci najveci rezultat sa jednim mnozenjem i jednim sabiranjem 
 
             //Console.WriteLine("Trocifren broj");
             //string TB = "";
@@ -897,6 +897,32 @@ namespace Kupovina
             //Console.ReadKey();
 
             #endregion
+
+            #region 26 zadatak Zbir
+
+            Console.WriteLine("Broj");
+            string broj = "";
+            broj = Console.ReadLine();
+            char[] cifre = broj.ToCharArray();
+
+            int zbir = 0;
+
+            foreach (char cifra in cifre)
+            {
+                int broj1 = int.Parse(cifra.ToString());
+                int provera = broj1 % 2;
+                if (provera > 0)
+                {
+                    zbir += broj1 * broj1;
+                }
+               
+            }
+
+            Console.WriteLine(zbir);
+            Console.ReadKey();
+
+            #endregion
+
         }
     }
 }

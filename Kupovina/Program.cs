@@ -8,7 +8,7 @@ namespace Kupovina
 {
     class Program
     {
-        
+        // **************  BRAVO STOLE !!!!!! *****************  ////
         //Општинско такмичење из програмирања за ученике основних школа 4. март 2017.
 
         static void Main(string[] args)

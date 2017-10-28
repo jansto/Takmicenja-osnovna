@@ -8,7 +8,6 @@ namespace Kupovina
 {
     class Program
     {
-        // **************  BRAVO STOLE !!!!!! *****************  ////
         //Општинско такмичење из програмирања за ученике основних школа 4. март 2017.
 
         static void Main(string[] args)
@@ -703,7 +702,7 @@ namespace Kupovina
 
             #endregion
 
-            #region 21 zadatakk Seckanje    
+            #region 21 zadatak Seckanje    
 
             //Console.WriteLine("Stranica1 Stranica2");
             //string AiB = Console.ReadLine();
@@ -753,7 +752,7 @@ namespace Kupovina
             //sekunde += 3600 * 16;
             //int Ostatak = sekunde % 108;
 
-            //if (Ostatak < 60 && Ostatak >=0)
+            //if (Ostatak < 60 && Ostatak >= 0)
             //{
             //    Console.WriteLine("Kreni");
             //    Console.ReadKey();
@@ -770,12 +769,35 @@ namespace Kupovina
             //}
             #endregion
 
-            #region 23 zadatak MAXIZRAZ (nedovrsen)
+            #region 23 zadatak MAXIZRAZ 
+
+             ////Rastaviti trocifren broj na cinioce i 
+             //// naci najveci rezultat sa jednim mnozenjem i jednim sabiranjem 
 
             //Console.WriteLine("Trocifren broj");
             //string TB = "";
-            //TB = Console.ReadLine();
+            //TB = Console.ReadLine(); 
+            //char[] cifre = TB.ToCharArray();
 
+            //int prva = int.Parse(cifre[0].ToString());
+            //int druga = int.Parse(cifre[1].ToString());
+            //int treca = int.Parse(cifre[2].ToString());
+
+            //int[] niz = { prva, druga, treca };
+
+            //int najveca =  niz.Max(element => Math.Abs(element));
+            //niz = niz.Where(val => val != najveca).ToArray();
+
+            //int srednja = niz.Max(element => Math.Abs(element));
+            //niz = niz.Where(val => val != srednja).ToArray();
+
+            //int najmanja = niz.Max(element => Math.Abs(element));
+            //niz = niz.Where(val => val != najmanja).ToArray();
+
+            //int Reziltat = najveca * srednja + najmanja;
+
+            //Console.WriteLine(Reziltat);
+            //Console.ReadKey();
 
             #endregion
 

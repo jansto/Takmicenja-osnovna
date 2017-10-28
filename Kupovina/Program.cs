@@ -182,7 +182,7 @@ namespace Kupovina
 
             #endregion
 
-            #region 6 zadatak SATI U UGAO(NEZAVRSEN)
+            #region 6 zadatak SATI U UGAO
 
             //Console.WriteLine("Upisite sate");
             //string sati = "";
@@ -195,9 +195,21 @@ namespace Kupovina
             //int sati_int = int.Parse(sati);
             //int minuti_int = int.Parse(minuti);
 
-            //int Ugao = ;
+            //int ugaoMS = sati_int * 30 * 60 + minuti_int * 30;
+            //if (sati_int >=12)
+            //{
+            //    ugaoMS = sati_int * 30 * 60 - minuti_int * 30;
+            //}
 
-            //Console.WriteLine(Ugao);
+            //int ugaoMM = minuti_int * 360;
+
+            //int RazlikaM = Math.Abs(ugaoMS - ugaoMM);
+
+            //int s = RazlikaM / 60;
+            //int m = RazlikaM % 60;
+
+            //Console.WriteLine(s.ToString() + ":" + m.ToString());
+
             //Console.ReadKey();
 
             #endregion
@@ -805,62 +817,62 @@ namespace Kupovina
 
             #region 25 zadatak Dzeparac
 
-            Console.WriteLine("Pon");
-            string Pon = "";
-            Pon = Console.ReadLine();
+            //Console.WriteLine("Pon");
+            //string Pon = "";
+            //Pon = Console.ReadLine();
 
-            Console.WriteLine("Uto");
-            string Uto = "";
-            Uto = Console.ReadLine();
+            //Console.WriteLine("Uto");
+            //string Uto = "";
+            //Uto = Console.ReadLine();
 
-            Console.WriteLine("Sre");
-            string Sre = "";
-            Sre = Console.ReadLine();
+            //Console.WriteLine("Sre");
+            //string Sre = "";
+            //Sre = Console.ReadLine();
 
-            Console.WriteLine("Cet");
-            string Cet = "";
-            Cet = Console.ReadLine();
+            //Console.WriteLine("Cet");
+            //string Cet = "";
+            //Cet = Console.ReadLine();
 
-            Console.WriteLine("Pet");
-            string Pet = "";
-            Pet = Console.ReadLine();
-
-
-            int Pon_int = int.Parse(Pon);
-            int Uto_int = int.Parse(Uto);
-            int Sre_int = int.Parse(Sre);
-            int Cet_int = int.Parse(Cet);
-            int Pet_int = int.Parse(Pet);
-
-            int[] niz = { Pon_int, Uto_int, Sre_int, Cet_int, Pet_int };
-
-            int NajveciDz = niz.Max(element => Math.Abs(element));
-            niz = niz.Where(val => val != NajveciDz).ToArray();
-            string Dan = "";
+            //Console.WriteLine("Pet");
+            //string Pet = "";
+            //Pet = Console.ReadLine();
 
 
-            if (NajveciDz == Pon_int)
-            {
-                Dan = "Pon";
-            }
-            if (NajveciDz == Uto_int)
-            {
-                Dan = "Uto";
-            }
-            if (NajveciDz == Sre_int)
-            {
-                Dan = "Sre";
-            }
-            if (NajveciDz == Cet_int)
-            {
-                Dan = "Cet";
-            }
-            if (NajveciDz == Pon_int)
-            {
-                Dan = "Pet";
-            }
-            Console.WriteLine(Dan + " " + NajveciDz.ToString());
-            Console.ReadKey();
+            //int Pon_int = int.Parse(Pon);
+            //int Uto_int = int.Parse(Uto);
+            //int Sre_int = int.Parse(Sre);
+            //int Cet_int = int.Parse(Cet);
+            //int Pet_int = int.Parse(Pet);
+
+            //int[] niz = { Pon_int, Uto_int, Sre_int, Cet_int, Pet_int };
+
+            //int NajveciDz = niz.Max(element => Math.Abs(element));
+            //niz = niz.Where(val => val != NajveciDz).ToArray();
+            //string Dan = "";
+
+
+            //if (NajveciDz == Pon_int)
+            //{
+            //    Dan = "Pon";
+            //}
+            //if (NajveciDz == Uto_int)
+            //{
+            //    Dan = "Uto";
+            //}
+            //if (NajveciDz == Sre_int)
+            //{
+            //    Dan = "Sre";
+            //}
+            //if (NajveciDz == Cet_int)
+            //{
+            //    Dan = "Cet";
+            //}
+            //if (NajveciDz == Pon_int)
+            //{
+            //    Dan = "Pet";
+            //}
+            //Console.WriteLine(Dan + " " + NajveciDz.ToString());
+            //Console.ReadKey();
 
             #endregion
         }

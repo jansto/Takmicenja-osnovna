@@ -12,7 +12,9 @@ namespace Kupovina
 
         static void Main(string[] args)
         {
-            #region 2 zadatak KUPOVINA PATIKA
+            #region 2 zadatak KUPOVINA PATIKA 5. razred 2017.
+
+            ////Odrediti koje patike su najskuplje
 
             //Console.WriteLine("Unesite cenu I patika");
             //string cipele1 = "";
@@ -50,7 +52,10 @@ namespace Kupovina
 
             #endregion
 
-            #region 3 zadatak TROUGAO
+            #region 3 zadatak TROUGAO 8. razred 2017.
+
+            ////Napisati stepene, minute i sekunde 2 ugla trougla.
+            ////Program treba da odredi treci i napise koji ugao je najveci
 
             //Console.WriteLine("Ugao 1");
             //string stepeni1 = "";
@@ -131,7 +136,10 @@ namespace Kupovina
             //Console.ReadKey();
             #endregion
 
-            #region 4 zadatak TRKA
+            #region 4 zadatak TRKA 8. razred 2017
+
+            ////Napisati brzinu prvog i drugom igraca i duzinu staze.
+            ////Odrediti kada ce brzi igrac biti za jedan krug veci od sporijeg
 
             //Console.WriteLine("Upisite duzinu staze");
             //string duzina = "";
@@ -162,7 +170,9 @@ namespace Kupovina
             //Console.ReadKey();
             #endregion
 
-            #region 5 zadatak UGAO U SATE
+            #region 5 zadatak UGAO U SATE 5.razred 2017.
+
+            ////Napisati stepen satnice i odrediti koliko je sati
 
             //Console.WriteLine("Upisite ugao satnice");
             //string Ugao = "";
@@ -181,7 +191,9 @@ namespace Kupovina
 
             #endregion
 
-            #region 6 zadatak SATI U UGAO
+            #region 6 zadatak SATI U UGAO 6. razred 2017.
+
+            ////Ugao izmendju satnice i minutare
 
             //Console.WriteLine("Upisite sate");
             //string sati = "";
@@ -213,7 +225,9 @@ namespace Kupovina
 
             #endregion
 
-            #region 7 zadatak RAZLOMCI U MESOVITE BROJEVE
+            #region 7 zadatak RAZLOMCI U MESOVITE BROJEVE 5. razred 2017.
+
+            ////Pretvoriti razlomak u mesovit broj
 
             //Console.WriteLine("Upisi imenilac razlomka");
             //string imenilac = "";
@@ -242,7 +256,9 @@ namespace Kupovina
 
             #endregion
 
-            #region 8 zadatak SKOLARINA
+            #region 8 zadatak SKOLARINA 8. razred 2017.
+
+            //// Odrediti cenu skolarine sa popustom ako su dati : pocetni iznos, prosek skole i nagrade
 
             //Console.WriteLine("Upisi iznos skolarine");
             //string skolarina = "";
@@ -312,7 +328,10 @@ namespace Kupovina
 
             #endregion
 
-            #region 9 zadatak KONCERT
+            #region 9 zadatak KONCERT II kategorija 2016.
+
+            ////Napisati pocetak koncerta, broj pauza od po 5 min.
+            ////Program treba da ispise kada se koncert zavrsava
 
             //Console.WriteLine("sat minut sekunda trajanje brojPauza");
             //string niz_string = Console.ReadLine();
@@ -345,7 +364,10 @@ namespace Kupovina
 
             #endregion
 
-            #region 10 zadatak Akvarijum
+            #region 10 zadatak Akvarijum I kategorija 2015.
+
+            ////Proveriti da li ima dovoljno vode za sve ribice.
+            ////Ako nema napisati koliko njih treba izbaciti
 
             //Console.WriteLine("Litar Ribice");
             //string RibeILitri = Console.ReadLine();
@@ -372,7 +394,9 @@ namespace Kupovina
             //}
             #endregion
 
-            #region 11 zadatak KONVERZIJA     
+            #region 11 zadatak KONVERZIJA  I kategorija 2016.
+            
+            ////Proveriti da li ima dovoljno mesta na hard discu
 
             //Console.WriteLine("U jednom redu upisite MINUTE (RAZMAK) SEKUNDE (RAZMAK) SLOBODAN PROSTOR(U MB)");
             //string MSP = Console.ReadLine();
@@ -404,7 +428,9 @@ namespace Kupovina
 
             #endregion
 
-            #region 12 zadatak BROTHERS
+            #region 12 zadatak BROTHERS 6. razred 2017.
+
+            ////Upisati godine 3 brata i naci koji je najveci
 
             //Console.WriteLine("Unesite godine Jovana");
             //string Jovan = "";
@@ -440,7 +466,9 @@ namespace Kupovina
 
             #endregion
 
-            #region 13 zadatak DOMINE
+            #region 13 zadatak DOMINE I kategorija 2014.
+
+            //// Upisati dve domine od po 2 broja i naci im najvecu kombinaciju
 
             //Console.WriteLine("Upisite 2 domine sa jednim razmakom");
             //string Domine = Console.ReadLine();
@@ -478,7 +506,9 @@ namespace Kupovina
 
             #endregion
 
-            #region 14 zadatak KVADRAT
+            #region 14 zadatak Pravougaonik
+
+            ////Upisati obim i stranicu 1 i program treba da izracuna 2. stranicu
 
             //    Console.WriteLine("U jednom redu unesite Povrsinu razmak druga stranica(prim. 20 2)");
             //    string ObimRazmakStranica = Console.ReadLine();
@@ -513,7 +543,9 @@ namespace Kupovina
 
             #endregion
 
-            #region 15 zadatak MikaIPera 
+            #region 15 zadatak MikaIPera 8.razred 2017.
+
+            ////Upisati vreme dva decaka i odrediti ko ce pre da stigne
 
             //Console.WriteLine("Unesite sate Mike");
             //string satiM = "";
@@ -570,7 +602,9 @@ namespace Kupovina
 
             #endregion
 
-            #region 16 zadatak Pekara
+            #region 16 zadatak Pekara 5. razred 2017.
+
+            ////Odredti da li decak moze da kupi uzinu
 
             //Console.WriteLine("Unesite broj S");
             //string s = "";
@@ -600,7 +634,9 @@ namespace Kupovina
 
             #endregion
 
-            #region 17 zadatak Praksa
+            #region 17 zadatak Praksa 5 razred 2017.
+
+            ////Odrediti cenu skolarine
 
             //Console.WriteLine("Unesite broj meseci rada");
             //string MeseciR = "";
@@ -625,7 +661,9 @@ namespace Kupovina
 
             #endregion
 
-            #region 18 zadatak Ukras
+            #region 18 zadatak Ukras 5. razred 2017.
+
+            ////Naci obim pravougaonika
 
             //Console.WriteLine("Stranica a");
             //string str1 = "";
@@ -643,7 +681,9 @@ namespace Kupovina
 
             #endregion
 
-            #region 19 zadatak PESMA
+            #region 19 zadatak PESMA I kategorija 2015
+
+            ////Odrediti da li ima dovoljno memorije na hard disc - u
 
             //Console.WriteLine("Minut Sekunda SlobodanProstor");
             //string MSS = Console.ReadLine();
@@ -674,7 +714,9 @@ namespace Kupovina
             //}
             #endregion
 
-            #region 20 zadatak OTKRIVANJE
+            #region 20 zadatak OTKRIVANJE II kategorija 2014.
+
+            ////Upisati zbir i razliku dva broja pa naci ta dva broja
 
             //Console.WriteLine(" Zbir Razlika");
             //string ZbirRazlika = Console.ReadLine();
@@ -702,7 +744,9 @@ namespace Kupovina
 
             #endregion
 
-            #region 21 zadatak Seckanje    
+            #region 21 zadatak Seckanje   
+
+            ////Pronaci koliko puta moze da se isece neki pravougaonik
 
             //Console.WriteLine("Stranica1 Stranica2");
             //string AiB = Console.ReadLine();
@@ -734,7 +778,10 @@ namespace Kupovina
 
             #endregion
 
-            #region 22 zadatak SEMAFOR
+            #region 22 zadatak SEMAFOR Opstinsko 6. razred 2016.
+
+            ////Upisati vreme i naci da li na semaforu pise STANI PRODJI ILI KRENI
+
 
             //Console.WriteLine("SAT MINUT SEKUNDA");
             //string SMS = Console.ReadLine();
@@ -769,7 +816,7 @@ namespace Kupovina
             //}
             #endregion
 
-            #region 23 zadatak MAXIZRAZ 
+            #region 23 zadatak MAXIZRAZ Opstinsko 6. razred 2014.
 
             ////Rastaviti trocifren broj na cinioce i 
             //// naci najveci rezultat sa jednim mnozenjem i jednim sabiranjem 
@@ -801,7 +848,9 @@ namespace Kupovina
 
             #endregion
 
-            #region 24 zadatak MATURA
+            #region 24 zadatak MATURA Okruzno 5. razred 2017.
+
+
 
             //Console.WriteLine("Aleksa");
             //string Aleksa = "";
@@ -837,7 +886,11 @@ namespace Kupovina
 
             #endregion
 
-            #region 25 zadatak Dzeparac
+            #region 25 zadatak Dzeparac Okruzno 6. razred 2017.
+
+            ////Napisati koliko para je dobijeno od pon do pet
+            ////i naci dan kada je dobijen naveci dzeparac
+
 
             //Console.WriteLine("Pon");
             //string Pon = "";
@@ -898,30 +951,104 @@ namespace Kupovina
 
             #endregion
 
-            #region 26 zadatak Zbir
+            #region 26 zadatak Zbir Okruzno 5. razred 2017.
+
+            ////Razdvojiti trocifren broj na cifre i naci
+            ////najveci broj sa jednim mnozenjem i sabiranjem
+
+            //Console.WriteLine("Broj");
+            //string broj = "";
+            //broj = Console.ReadLine();
+            //char[] cifre = broj.ToCharArray();
+
+            //int zbir = 0;
+
+            //foreach (char cifra in cifre)
+            //{
+            //    int broj1 = int.Parse(cifra.ToString());
+            //    int provera = broj1 % 2;
+            //    if (provera > 0)
+            //    {
+            //        zbir += broj1 * broj1;
+            //    }
+
+            //}
+
+            //Console.WriteLine(zbir);
+            //Console.ReadKey();
+
+            #endregion
+
+            #region 27 zadatak Delioci Okruzno 5. razred 2017.
+
+            ////Upisati prirodan broj i naci
+            ////kardinalni broj njegovih delioca 
+
+            //Console.WriteLine("Broj");
+            //string broj = "";
+            //broj = Console.ReadLine();
+
+            //int broj_int = int.Parse(broj);
+            //int n = 0;
+            //int y = 0;
+            //int z = 1;
+
+
+            //while (n < broj_int)
+            //{
+            //    int provera = broj_int % z;
+            //    if (provera == 0)
+            //    {
+            //        y++ ;
+            //    }
+            //    n++;
+            //    z++;
+            //} 
+
+            //Console.WriteLine(y.ToString());
+            //Console.ReadKey();
+
+            #endregion
+
+            #region 28 zadatak Sredina II kategorija 2014.
+
+
+            //Naci aritmeticku sredinu zbira delioca nekog broja 
+            //i zaokruziti na 2 decimale
 
             Console.WriteLine("Broj");
             string broj = "";
             broj = Console.ReadLine();
-            char[] cifre = broj.ToCharArray();
 
-            int zbir = 0;
+            int broj_int = int.Parse(broj);
 
-            foreach (char cifra in cifre)
+            int n = 0;
+            int y = 0;
+            int k = 0;
+            int z = 1;
+
+
+            while (n < broj_int)
             {
-                int broj1 = int.Parse(cifra.ToString());
-                int provera = broj1 % 2;
-                if (provera > 0)
+                int provera = broj_int % z;
+                if (provera == 0)
                 {
-                    zbir += broj1 * broj1;
+                    y += z ;
+                    k++;
                 }
-               
+                n++;
+                z++;
             }
 
-            Console.WriteLine(zbir);
-            Console.ReadKey();
+            int Sredina = y / k;
+            double vOut = Convert.ToDouble(Sredina);
+            Math.Round(vOut, 2);
 
+            Console.WriteLine(vOut.ToString());
+            Console.ReadKey();
             #endregion
+
+
 
         }
     }

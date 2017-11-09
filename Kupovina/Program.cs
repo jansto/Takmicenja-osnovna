@@ -395,7 +395,7 @@ namespace Kupovina
             #endregion
 
             #region 11 zadatak KONVERZIJA  I kategorija 2016.
-            
+
             ////Proveriti da li ima dovoljno mesta na hard discu
 
             //Console.WriteLine("U jednom redu upisite MINUTE (RAZMAK) SEKUNDE (RAZMAK) SLOBODAN PROSTOR(U MB)");
@@ -506,7 +506,7 @@ namespace Kupovina
 
             #endregion
 
-            #region 14 zadatak Pravougaonik
+            #region 14 zadatak Pravougaonik Opstinsko I kategorija 2014.
 
             ////Upisati obim i stranicu 1 i program treba da izracuna 2. stranicu
 
@@ -1013,43 +1013,354 @@ namespace Kupovina
             #region 28 zadatak Sredina II kategorija 2014.
 
 
-            //Naci aritmeticku sredinu zbira delioca nekog broja 
-            //i zaokruziti na 2 decimale
+            ////Naci aritmeticku sredinu zbira delioca nekog broja 
+            ////i zaokruziti na 2 decimale
 
-            Console.WriteLine("Broj");
+            //Console.WriteLine("Broj");
+            //string broj = "";
+            //broj = Console.ReadLine();
+
+            //int broj_int = int.Parse(broj);
+
+            //int n = 0;
+            //int y = 0;
+            //int k = 0;
+            //int z = 1;
+
+
+            //while (n < broj_int)
+            //{
+            //    int provera = broj_int % z;
+            //    if (provera == 0)
+            //    {
+            //        y += z ;
+            //        k++;
+            //    }
+            //    n++;
+            //    z++;
+            //}
+
+            //int Sredina = y / k;
+            //double vOut = Convert.ToDouble(Sredina);
+            //Math.Round(vOut, 2);
+
+            //Console.WriteLine(vOut.ToString());
+            //Console.ReadKey();
+            #endregion
+
+            #region 29 zadatak Obuka Okruzno 5. razred 2017.
+
+            //// Napisati od kada do kada traje prva i druga grupa 
+            ////i odrediti im zajednicko vreme
+
+            //Console.WriteLine("Sat pocetka prve grupe");
+            //string grupa1P = "";
+            //grupa1P = Console.ReadLine();
+
+            //Console.WriteLine("Sat zavrsetka druge grupe");
+            //string grupa1K = "";
+            //grupa1K = Console.ReadLine();
+
+            //Console.WriteLine("Sat pocetka druge grupe");
+            //string grupa2P = "";
+            //grupa2P = Console.ReadLine();
+
+            //Console.WriteLine("Sat zavrsetka druge grupe");
+            //string grupa2K = "";
+            //grupa2K = Console.ReadLine();
+
+            //int grupa1P_int = int.Parse(grupa1P);
+            //int grupa1K_int = int.Parse(grupa1K);
+            //int grupa2P_int = int.Parse(grupa2P);
+            //int grupa2K_int = int.Parse(grupa2K);
+
+            //int Racunanje = 0;
+
+            //if (grupa1K_int <= grupa2P_int)
+            //{
+            //    Console.WriteLine(Racunanje.ToString());
+            //    Console.ReadKey();
+            //}
+
+            //if (grupa1K_int > grupa2K_int)
+            //{
+            //    Racunanje = grupa1K_int - grupa2P_int - (grupa1K_int - grupa2K_int);
+            //    Console.WriteLine(Racunanje.ToString());
+            //    Console.ReadKey();
+            //}
+
+            //if (grupa1K_int <= grupa2K_int)
+            //{
+            //    Racunanje = grupa1K_int - grupa2P_int;
+            //    Console.WriteLine(Racunanje.ToString());
+            //    Console.ReadKey();
+            //}
+
+
+
+            #endregion
+
+            #region 30 zadatak Delioci V2 Okruzno 5. razred 2017.
+
+            //Console.WriteLine("Pocetan broj");
+            //string broj1 = "";
+            //broj1 = Console.ReadLine();
+
+            //Console.WriteLine("Zavrsan broj");
+            //string broj2 = "";
+            //broj2 = Console.ReadLine();
+
+            //int broj1_int = int.Parse(broj1);
+            //int broj2_int = int.Parse(broj2);
+
+            //int n = 0;
+            //int k = 0;
+            //int z = 1;
+
+
+            //while (n  < broj1_int)
+            //{
+            //    int provera = broj1_int % z;
+            //    if (provera == 0)
+            //    {
+            //        broj1 += z;
+
+            //    }
+            //    n++;
+            //    z++;
+            //}
+
+            //Console.WriteLine(broj1_int);
+            //Console.ReadKey();
+
+            #endregion
+
+            #region 31 zadatak Kusur Opstinsko II kategorija 2014.
+
+            //Console.WriteLine("Cena IznosKojiJeKupacDaoKasirki");
+            //string cene = Console.ReadLine();
+            //string[] ceneNiz = cene.Split(' ');
+
+            //int Cena = int.Parse(ceneNiz[0]);
+            //int Pare = int.Parse(ceneNiz[1]);
+
+            //int n = 1;
+            //int kusur = Pare - Cena;
+
+
+            //while(kusur > 0)
+            //{
+
+            //    if (kusur >= 10)
+            //    {
+            //        kusur -= 10;
+            //    }
+
+            //    if (kusur >= 5 && kusur < 10)
+            //    {
+            //        kusur -= 5;
+            //    }
+
+            //    if (kusur >= 2 && kusur < 5)
+            //    {
+            //        kusur -= 2;
+            //    }
+
+            //    if (kusur >= 1 && kusur < 2)
+            //    {
+            //        kusur -= 1;
+            //    }
+            //    n++;
+
+            //}
+
+            //Console.WriteLine(n.ToString());
+            //Console.ReadKey();
+
+            #endregion
+
+            #region 32 zadatak Stolovi Opstinsko I kategorija 2011.
+
+            //Console.WriteLine("Povrsina");
+            //string P = "";
+            //P = Console.ReadLine();
+
+            //Console.WriteLine("Broj stolova za 4 osobe");
+            //string sto4 = "";
+            //sto4 = Console.ReadLine();
+
+            //Console.WriteLine("Broj stolova za 6 osoba");
+            //string sto6 = "";
+            //sto6 = Console.ReadLine();
+
+            //Console.WriteLine("Broj izvodjaca benda");
+            //string brojI = "";
+            //brojI = Console.ReadLine();
+
+            //int P_int = int.Parse(P);
+            //int sto4_int = int.Parse(sto4);
+            //int sto6_int = int.Parse(sto6);
+            //int brojI_int = int.Parse(brojI);
+
+
+            //int Ostatak = (P_int - sto6_int * 7 - sto4_int * 5 - brojI_int) / 2;
+
+            //Console.WriteLine(Ostatak);
+            //Console.ReadKey();
+            #endregion
+
+            #region 33 zadatak Jelo Opstinsko I kategorija 2011.
+
+            //Console.WriteLine("Broj pilica");
+            //string Pilici = "";
+            //Pilici = Console.ReadLine();
+
+            //Console.WriteLine("Broj zaba");
+            //string Zabe = "";
+            //Zabe = Console.ReadLine();
+
+            //int Pilici_int = int.Parse(Pilici);
+            //int Zabe_int = int.Parse(Zabe);
+
+            //int Krilca = (Pilici_int * 2) * 8 / 10;
+            //int Bataci = Zabe_int * 2;
+
+            //int y = Bataci / 3;
+            //int x = Krilca / 2;
+
+            //if (x > y)
+            //{
+            //    Console.WriteLine(y);
+            //}
+
+            //if (y > x)
+            //{
+            //    Console.WriteLine(x);
+            //}           
+
+            //Console.ReadKey();
+
+            #endregion
+
+            #region 34 zadatak Karta Opstinsko I kategorija 2011. NEDOVRSEN
+
+            //Console.WriteLine("Smer1 Vrednost1");
+            //string SV1 = Console.ReadLine();
+            //string[] niz1 = SV1.Split(' ');
+
+            //Console.WriteLine("Smer2 Vrednost2");
+            //string SV2 = Console.ReadLine();
+            //string[] niz2 = SV2.Split(' ');
+
+            //Console.WriteLine("Smer3 Vrednost3");
+            //string SV3 = Console.ReadLine();
+            //string[] niz3 = SV3.Split(' ');
+
+            //int Smer1 = int.Parse(niz1[0]);
+            //int Vrednost1 = int.Parse(niz1[1]);
+
+            //int Smer2 = int.Parse(niz2[0]);
+            //int Vrednost2 = int.Parse(niz2[1]);
+
+            //int Smer3 = int.Parse(niz3[0]);
+            //int Vrednost3 = int.Parse(niz3[1]);
+
+            //int SmerSI = 1;
+            //int SmerJZ = -1;
+
+            //if (Smer1 == 1)
+            //{
+            //    Smer1 *= SmerSI;
+            //}
+
+            //if (Smer1 == 2)
+            //{
+            //    Smer1 *= SmerJZ;
+            //}
+
+            //if (Smer1 == 3)
+            //{
+            //    Smer1 *= SmerSI;
+            //}
+
+            //if (Smer1 == 4)
+            //{
+            //    Smer1 = SmerJZ;
+            //}
+
+
+            //if (Smer2 == 1)
+            //{
+            //    Smer2 *= SmerSI;
+            //}
+
+            //if (Smer2 == 2)
+            //{
+            //    Smer2 *= SmerJZ;
+            //}
+
+            //if (Smer2 == 3)
+            //{
+            //    Smer2 *= SmerSI;
+            //}
+
+            //if (Smer2 == 4)
+            //{
+            //    Smer2 = SmerJZ;
+            //}
+
+
+            //if (Smer3 == 1)
+            //{
+            //    Smer3 *= SmerSI;
+            //}
+
+            //if (Smer3 == 2)
+            //{
+            //    Smer3 *= SmerJZ;
+            //}
+
+            //if (Smer3 == 3)
+            //{
+            //    Smer3 *= SmerSI;
+            //}
+
+            //if (Smer3 == 4)
+            //{
+            //    Smer3 = SmerJZ;
+            //}
+
+
+
+
+            #endregion
+
+            #region 35 zadatak Most 5. razred II kategorija 2009.
+
+            Console.WriteLine("Sirina Ploce");
+            string sirina = "";
+            sirina = Console.ReadLine();
+
+            Console.WriteLine("Duzina ploce");
+            string duzina = "";
+            duzina = Console.ReadLine();
+
+            Console.WriteLine("Broj ploca");
             string broj = "";
             broj = Console.ReadLine();
 
+            int duzina_int = int.Parse(duzina);
+            int sirina_int = int.Parse(sirina);
             int broj_int = int.Parse(broj);
 
-            int n = 0;
-            int y = 0;
-            int k = 0;
-            int z = 1;
+            int Stranica1 = duzina_int * broj_int;
+            int brojPloca = Stranica1 * 2 + 4 + sirina_int * 2;
 
-
-            while (n < broj_int)
-            {
-                int provera = broj_int % z;
-                if (provera == 0)
-                {
-                    y += z ;
-                    k++;
-                }
-                n++;
-                z++;
-            }
-
-            int Sredina = y / k;
-            double vOut = Convert.ToDouble(Sredina);
-            Math.Round(vOut, 2);
-
-            Console.WriteLine(vOut.ToString());
+            Console.WriteLine(brojPloca);
             Console.ReadKey();
             #endregion
 
-
-
         }
+
     }
 }

@@ -1337,28 +1337,182 @@ namespace Kupovina
 
             #region 35 zadatak Most 5. razred II kategorija 2009.
 
-            Console.WriteLine("Sirina Ploce");
-            string sirina = "";
-            sirina = Console.ReadLine();
+            //Console.WriteLine("Sirina Ploce");
+            //string sirina = "";
+            //sirina = Console.ReadLine();
 
-            Console.WriteLine("Duzina ploce");
-            string duzina = "";
-            duzina = Console.ReadLine();
+            //Console.WriteLine("Duzina ploce");
+            //string duzina = "";
+            //duzina = Console.ReadLine();
 
-            Console.WriteLine("Broj ploca");
-            string broj = "";
-            broj = Console.ReadLine();
+            //Console.WriteLine("Broj ploca");
+            //string broj = "";
+            //broj = Console.ReadLine();
 
-            int duzina_int = int.Parse(duzina);
-            int sirina_int = int.Parse(sirina);
-            int broj_int = int.Parse(broj);
+            //int duzina_int = int.Parse(duzina);
+            //int sirina_int = int.Parse(sirina);
+            //int broj_int = int.Parse(broj);
 
-            int Stranica1 = duzina_int * broj_int;
-            int brojPloca = Stranica1 * 2 + 4 + sirina_int * 2;
+            //int Stranica1 = duzina_int * broj_int;
+            //int brojPloca = Stranica1 * 2 + 4 + sirina_int * 2;
 
-            Console.WriteLine(brojPloca);
-            Console.ReadKey();
+            //Console.WriteLine(brojPloca);
+            //Console.ReadKey();
             #endregion
+
+            #region 36 zadatak Kocke II kategorija 2009.
+
+            //Console.WriteLine("Sirina puta");
+            //string sirina = "";
+            //sirina = Console.ReadLine();
+
+            //Console.WriteLine("Duzina puta");
+            //string duzina = "";
+            //duzina = Console.ReadLine();
+
+            //Console.WriteLine("Duzina ivice kocke1");
+            //string kocka1 = "";
+            //kocka1 = Console.ReadLine();
+
+            //Console.WriteLine("Duzina ivice kocke2");
+            //string kocka2 = "";
+            //kocka2 = Console.ReadLine();
+
+            //int sirina_int = int.Parse(sirina);
+            //int duzina_int = int.Parse(duzina);
+            //int kocka1_int = int.Parse(kocka1);
+            //int kocka2_int = int.Parse(kocka2);
+            //int P = sirina_int * duzina_int;
+
+            //int[] niz = { kocka1_int, kocka2_int };
+            //int kockaV = niz.Max(element => Math.Abs(element));
+            //niz = niz.Where(val => val != kockaV).ToArray();
+            //int kockaM = niz[0];
+
+            //int ProveraV = P % kockaV;
+            //int ProveraM = P % kockaM;
+            //int n = 0;
+
+            //while (P >= 0)
+            //{
+            //    if (ProveraV == 0)
+            //    {
+            //        P -= kockaV;
+            //    }
+            //    if (ProveraM == 0)
+            //    {
+            //        P -= kockaM;
+            //    }
+            //    if (ProveraM == 0 && ProveraV == 0)
+            //    {
+            //        P -= kockaV;
+            //    }
+
+            //    n++;
+            //}
+
+
+            //Console.WriteLine(n);
+            //Console.ReadKey();
+
+            #endregion
+
+            #region 37 zadatak Cvorovi I kategorija 2009
+
+            //Console.WriteLine("Broj Trouglova");
+            //string broj = "";
+            //broj = Console.ReadLine();
+
+            //int broj_int = int.Parse(broj);
+            //int Cvorovi = broj_int + 2;
+
+            //Console.WriteLine(Cvorovi);
+            //Console.ReadLine();
+
+            #endregion
+
+            #region 38 zadatak Polazak I kategorija 2009
+
+            //Console.WriteLine("Vreme kome je takmicaru potrbno stigne do mosta");
+            //string vreme = "";
+            //vreme = Console.ReadLine();
+
+            //Console.WriteLine("Vreme posle koga most krece da se podize");
+            //string dizanje = "";
+            //dizanje = Console.ReadLine();
+
+            //Console.WriteLine("Vreme cekanja");
+            //string cekanje = "";
+            //cekanje = Console.ReadLine();
+
+            //int vreme_int = int.Parse(vreme);
+            //int dizanje_int = int.Parse(cekanje);
+            //int cekanje_int = int.Parse(dizanje);
+
+            //int Razlika1 = vreme_int - dizanje_int;
+            //int Razlika = cekanje_int - Razlika1;
+
+            //if (Razlika1 <= 0)
+            //{
+            //    Razlika = 0;
+            //}
+
+            //Console.WriteLine(Razlika);
+            //Console.ReadKey();
+
+            #endregion
+
+            #region 39 zadatak Pogadjanje I kategorija 2009
+
+            //Console.WriteLine("Zute");
+            //string Zute = "";
+            //Zute = Console.ReadLine();
+
+            //Console.WriteLine("Namdzaraste");
+            //string Namdzaraste = "";
+            //Namdzaraste = Console.ReadLine();
+
+            //Console.WriteLine("Crvene");
+            //string Crevene = "";
+            //Crevene = Console.ReadLine();
+
+            //Console.WriteLine("Broj ljudi");
+            //string broj1 = "";
+            //broj1 = Console.ReadLine();
+
+            //int Zute_int = int.Parse(Zute);
+            //int Namdzaraste_int = int.Parse(Namdzaraste);
+            //int Crvene_int = int.Parse(Crevene);
+            //int broj_int = int.Parse(broj1);
+            //int rezultat = 0;
+            //int broj = Zute_int + Namdzaraste_int + Crvene_int;
+            //int Provera = broj % broj_int;
+
+
+            //if (broj < broj_int)
+            //{
+            //    broj += 100;
+            //}
+
+            //if (Provera >= 0 && Provera < Namdzaraste_int)
+            //{
+            //    rezultat = 2;
+            //}
+            //if (Provera >= Namdzaraste_int && Provera < Crvene_int)
+            //{
+            //    rezultat = 10;
+            //}
+            //if (Provera >= Crvene_int && Provera < broj)
+            //{
+            //    rezultat = 7;
+            //}
+
+            //Console.WriteLine(rezultat);
+            //Console.ReadKey();
+
+            #endregion
+
+
 
         }
 

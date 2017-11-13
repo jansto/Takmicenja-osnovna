@@ -1512,7 +1512,169 @@ namespace Kupovina
 
             #endregion
 
+            #region 40 zadatak Put I kategorrija 2010
 
+            //Console.WriteLine("Sirina mosta u m (Ako koristis decimalan broj koristi , umesto .) ");
+            //string sirina = "";
+            //sirina = Console.ReadLine();
+
+            //Console.WriteLine("Duzina ivice kocke u cm");
+            //string ivica = "";
+            //ivica = Console.ReadLine();
+
+            //double sirina_dbl = double.Parse(sirina);
+            //double ivica_dbl = double.Parse(ivica);
+            //ivica_dbl /= 100;
+
+            //double Racun = sirina_dbl / ivica_dbl;
+            //double RRacun = Math.Round(Racun);
+
+            //Console.WriteLine(RRacun);
+            //Console.ReadKey();
+
+            #endregion
+
+            #region 41 zadatak Ziri I kategorija 2010
+
+            //Console.WriteLine("6 ocena razdvojenih razmakom ne vecih od 20");
+            //string brojevi = Console.ReadLine();
+            //string[] niz1 = brojevi.Split(' ');
+
+            //int min = 21, max = 0;
+
+            //int a1 = int.Parse(niz1[0]);
+            //int a2 = int.Parse(niz1[1]);
+            //int a3 = int.Parse(niz1[2]);
+            //int a4 = int.Parse(niz1[3]);
+            //int a5 = int.Parse(niz1[4]);
+            //int a6 = int.Parse(niz1[5]);
+
+            //if (a1 < min) min = a1;
+            //if (a1 > max) max = a1;
+            //if (a2 < min) min = a2;
+            //if (a2 > max) max = a2;
+            //if (a3 < min) min = a3;
+            //if (a3 > max) max = a3;
+            //if (a4 < min) min = a4;
+            //if (a4 > max) max = a4;
+            //if (a5 < min) min = a5;
+            //if (a5 > max) max = a5;
+            //if (a6 < min) min = a6;
+            //if (a6 > max) max = a6;
+            //int s = a1 + a2 + a3 + a4 + a5 + a6;
+            //if (a1 == a2 && a2 == a3 && a3 == a4 && a4 == a5 && a5 == a6)
+            //{
+            //    Console.WriteLine(s);
+            //    Console.ReadKey();
+            //}
+            //else
+            //{
+            //    s -= min;
+            //    s -= max;
+            //    Console.WriteLine(s);
+            //    Console.ReadKey();
+            //}
+            #endregion
+
+            #region 42 zadatak Raspored I kategorrija 2010
+
+            //Console.WriteLine("Koliko ima klupa u redu");
+            //string klupe = "";
+            //klupe = Console.ReadLine();
+
+            //Console.WriteLine("Koliko ima redova");
+            //string redovi = "";
+            //redovi = Console.ReadLine();
+
+            //int klupe_int = int.Parse(klupe);
+            //int redovo_int = int.Parse(redovi);
+            //int rezultat = 0;
+            //if (klupe_int == redovo_int)
+            //{
+            //    rezultat = klupe_int;
+            //}
+            //else
+            //{
+            //    rezultat = 2;
+            //}
+
+            //Console.WriteLine(rezultat);
+            //Console.ReadKey();
+            #endregion
+
+            #region 43 zadatak Rostilj I kategorija 2008
+
+            //Console.WriteLine("Stranica sobe");
+            //string soba = "";
+            //soba = Console.ReadLine();
+
+            //Console.WriteLine("Stranica1 rostilja");
+            //string stranica1 = "";
+            //stranica1 = Console.ReadLine();
+
+            //Console.WriteLine("Stranica2 rostilja");
+            //string stranica2 = "";
+            //stranica2 = Console.ReadLine();
+
+            //double soba_int = double.Parse(soba);
+            //double stranica1_int = double.Parse(stranica1);
+            //double stranica2_int = double.Parse(stranica2);
+
+            //string mn = "";
+            //soba_int *= soba_int;
+
+            //double Rezultat = soba_int - stranica1_int * stranica2_int;
+
+            //if (Rezultat >= 0)
+            //{
+            //    mn = "moze";
+            //}
+            //else
+            //{
+            //    mn = "ne moze";
+            //}
+
+            //Console.WriteLine(mn);
+            //Console.ReadKey();
+            #endregion
+
+            #region 44 zadatak Plocice I kategorija 2008
+
+            Console.WriteLine("Stranica1 sobe");
+            string stranica1 = "";
+            stranica1 = Console.ReadLine();
+
+            Console.WriteLine("Stranica2 sobe");
+            string stranica2 = "";
+            stranica2 = Console.ReadLine();
+
+            Console.WriteLine("Stranica plocice");
+            string stranicaP = "";
+            stranicaP = Console.ReadLine();
+
+            int stranica1_int = int.Parse(stranica1);
+            int stranica2_int = int.Parse(stranica2);
+            int stranicaP_int = int.Parse(stranicaP);
+            int k = 0;
+
+            if (stranica1_int % stranicaP_int != 0 && stranica2_int % stranicaP_int == 0)
+            {
+                k = stranica2_int / stranicaP_int;
+            }
+
+            if (stranica1_int % stranicaP_int == 0 && stranica2_int % stranicaP_int != 0)
+            {
+                k = stranica1_int / stranicaP_int;
+            }
+
+            if (stranica1_int % stranicaP_int != 0 && stranica2_int % stranicaP_int != 0)
+            {
+                k = stranica1_int / stranicaP_int + stranica2_int / stranicaP_int + 1;
+            }
+            Console.WriteLine(k);
+            Console.ReadKey();
+
+            #endregion
 
         }
 
